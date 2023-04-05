@@ -82,8 +82,8 @@
             bindings = <
  &trans      &trans     &trans      &trans       &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans      &trans     &trans      &trans       &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans      &trans     &trans      &trans   &kt K_FIND  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &kt K_UNDO  &kt K_CUT  &kt K_COPY  &kt K_PASTE  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans      &trans     &trans      &trans   &kp LEFT_COMMAND(F)  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp LEFT_COMMAND(Z)  &kp LEFT_COMMAND(X)  &kp LEFT_COMMAND(C)  &kp LEFT_COMMAND(F)  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans      &trans     &trans      &trans       &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
